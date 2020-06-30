@@ -11,7 +11,7 @@ public class ChatApplication {
 		if(args.length > 0) {
 			addr = args[1];
 		} else {
-			addr = "172.18.0.1";
+			addr = "127.0.0.1";
 		}
 		// conexao socket tcp com servidor
 		Client conn = null;

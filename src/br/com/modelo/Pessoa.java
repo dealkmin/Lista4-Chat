@@ -2,7 +2,8 @@ package br.com.modelo;
 
 public class Pessoa {
 	private static int ID_COUNTER = 0;
-	private String nome, uuid;
+	private String nome; 
+	private String uuid;
 	private int id;
 	
 	Pessoa(String nome){
@@ -33,7 +34,7 @@ public class Pessoa {
 		}
 		id = id%10000;
 		String uuid = String.format("%04", id);
-		return uidd;
+		return uuid;
 	}
 	
 	public String toString() {

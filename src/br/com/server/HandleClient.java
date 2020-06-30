@@ -1,6 +1,6 @@
 package br.com.server;
 
-public class HandleClient {
+public class HandleClient extends Thread{
 	
 	final private static String WARNING = "\\warning";
 	private ClientInfo client;
